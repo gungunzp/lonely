@@ -1,9 +1,3 @@
-/*
-* {
-    box-sizing: border-box;
-}
-*/
-
 html {
     width: 100%;
     height: 100%;
@@ -21,7 +15,7 @@ body {
 	padding: 0;
 }
 
-.gg_container {
+.gg_bg {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: auto 100%;
@@ -29,26 +23,52 @@ body {
 }
 
 .index_bg {
-	background-image: url(../img/index_bg.jpg);
+	background-image: url(../img/lonely_bg.png);
+}
+
+.status_bg {
+	background-image: url(../img/status_bg.png);
 }
 
 .gg_btn {
 	display: block;
 	position: absolute;
-	height: 85px;
-	width: 265px;
-	border: 5px solid #fff;
+    height: 10%;	
+	width: 34vh;
+/*	border: 5px solid #fff;    */
+    border-color: transparent;
 	background-color: transparent;
 	color: #fff;
 	font-size: 33px;
 	text-align: center;
-	top: 73%;
+	top: 78%;
 	left: 50%;
-	transform: translate(-50%);
+	margin-left: -17vh;
 	cursor: pointer;
-	transition: all .2s ease-in-out;
+/*	transition: all .2s ease-in-out;   */
+}
+
+.gg_txt {
+	display: block;
+	position: absolute;
+    min-height: 80px;
+	width: 34vh;
+/*	border: 5px solid #fff;    */
+    border-color: transparent;
+	background-color: transparent;
+	color: darkgray;
+	font-size: 33px;
+	text-align: center;
+	top: 65%;
+	left: 50%;
+	margin-left: -17vh;
+	cursor: pointer;  
+/*	transition: all .2s ease-in-out;   */
 }
 
 .gg_btn:hover {
-	border-color: #000;
+/*	border-color: #000;    */
+    border-color: transparent;
+	background-color: black;
+	opacity: 0.3
 }

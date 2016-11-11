@@ -10,10 +10,11 @@
 </head>
 
 <body>
-    <div class="gg_container index_bg">
-        <form action="">
-            <button type="submit" class="gg_btn">
-                KLICK HIER
+    <div class="gg_bg index_bg">
+        <form action="php_clicks.php">
+            <button type="submit" method="post" target="_self" enctype="multipart/form-data" class="gg_btn">
+			<input type="hidden" name="dummy" value="1">
+                &nbsp;
             </button>
         </form>
     </div>
