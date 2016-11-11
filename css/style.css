@@ -54,9 +54,9 @@ body {
     min-height: 80px;
     width: 34vh;
     color: darkgray;
-    font-size: 33px;
+    font-size: 5vh;
     text-align: center;
-    top: 67%;
+    top: 66%;
     left: 50%;
     margin-left: -17vh;
 }
